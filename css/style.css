@@ -1,6 +1,39 @@
-/* this is a imgage style  */
-.img{
-    background-image: url('../img/img1.jfif');
-    width: 200px;
-    height: 300px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }      
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section-center{
+    width: 90%;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    background-color: rgb(37, 37, 85);
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex; 
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    letter-spacing: 2px;
+    padding: 0 0.3rem;
+}
+nav{
+    width: 60%; 
+
 }
