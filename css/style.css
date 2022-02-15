@@ -1,0 +1,6 @@
+/* this is a imgage style  */
+.img{
+    background-image: url('../img/img1.jfif');
+    width: 200px;
+    height: 300px;
+}
